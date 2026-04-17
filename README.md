@@ -2,17 +2,24 @@
 
 ## 📊 Overview
 A Machine Learning project that predicts employee performance using data analytics.
- Helps organizations identify high and low performers for better decision-making.
 
+Helps organizations identify high and low performers for better decision-making.
+
+---
 ## 🎯 Problem Statement
 Traditional performance evaluation is manual and biased.
- This project automates prediction using employee data.
+
+This project automates prediction using employee data.
+
+---
 
 ## 💼 Business Use Cases
-Identify high-performing employees
-Detect low performers early
-Support promotion decisions
-Plan training programs
+- Identify high-performing employees
+- Detect low performers early
+- Support promotion decisions
+- Plan training programs
+
+---
 
 ## 🛠️ Tech Stack
 Python
@@ -22,8 +29,11 @@ Matplotlib
 Seaborn
 Scikit-learn
 
+---
 ## 🏗️ Workflow
 Employee Data → Preprocessing → Feature Engineering → Model Training → Prediction → Insights
+
+---
 ## 📂 Project Structure
 
 ```
@@ -46,19 +56,23 @@ Employee-Performance-Predictor/
 ├── requirements.txt
 └── README.md
 ```
+---
 ## ⚙️ Installation
 pip install pandas numpy matplotlib seaborn scikit-learn joblib
 
 
 ## ▶️ How to Run
 python src/data_generator.py
+
 python main.py
+
+---
 
 
 ## 📊 Results
 
 ### Dataset Preview
-![Dataset](images/dataset_preview)
+![Dataset](images/dataset_preview.png)
 
 ### Performance Distribution
 ![Chart](images/performance_distribution.png)
@@ -69,19 +83,29 @@ python main.py
 ### Model Accuracy
 ![Accuracy](images/model_accuracy.png)
 
-🤖 Model Used
-Random Forest Classifier
+---
+
+## 🤖 Model Used
+- Random Forest Classifier
+
+---
 
 ## 📈 Output
 The model predicts employee performance as:
-High
-Medium
-Low
+
+- High
+- Medium
+- Low
+
+--- 
 
 ## 🧠 Key Insights
-Higher training hours improve performance
-Salary positively impacts results
-Experience contributes to growth
+
+- Higher training hours improve performance
+- Salary positively impacts results
+- Experience contributes to growth
+
+---
 
 ## 🚀 Key Achievements
 
@@ -90,14 +114,20 @@ Experience contributes to growth
 - Created synthetic HR dataset
 - Generated insights using data visualization
 
+---
 ## 🚀 Future Improvements
-Add real HR dataset
-Build Streamlit dashboard
-Deploy as web app
-Add attrition prediction
+
+- Use real HR dataset
+- Build Streamlit dashboard
+- Deploy as web app
+- Add attrition prediction
+
+---
 
 ## 👩‍💻 Author
 Nidhi Apotikar
+
+---
 
 ⭐ If you like this project
 Give it a ⭐ on GitHub!
