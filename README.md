@@ -1,5 +1,6 @@
 # 🚀 Employee Performance Predictor
 
+---
 ## 📊 Overview
 A Machine Learning project that predicts employee performance using data analytics.
 
