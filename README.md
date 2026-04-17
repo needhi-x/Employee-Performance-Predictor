@@ -24,35 +24,28 @@ Scikit-learn
 
 ## 🏗️ Workflow
 Employee Data → Preprocessing → Feature Engineering → Model Training → Prediction → Insights
-
 ## 📂 Project Structure
+
+```
 Employee-Performance-Predictor/
-|
-|-- data/
-|   |-- employee_data.csv
-|
-|-- src/
-|   |-- data_generator.py
-|   |-- preprocessing.py
-|   |-- model.py
-|
-|-- models/
-|   |-- model.pkl
-|
-|-- outputs/
-|
-|-- images/
-|   |-- dataset_preview.png
-|   |-- performance_distribution.png
-|   |-- salary_vs_performance.png
-|   |-- model_accuracy.png
-|   |-- project_structure.png
-|
-|-- main.py
-|-- requirements.txt
-|-- README.md
-
-
+├── data/
+│   └── employee_data.csv
+├── src/
+│   ├── data_generator.py
+│   ├── preprocessing.py
+│   ├── model.py
+├── models/
+│   └── model.pkl
+├── outputs/
+├── images/
+│   ├── dataset_preview.png
+│   ├── performance_distribution.png
+│   ├── salary_vs_performance.png
+│   ├── model_accuracy.png
+├── main.py
+├── requirements.txt
+└── README.md
+```
 ## ⚙️ Installation
 pip install pandas numpy matplotlib seaborn scikit-learn joblib
 
@@ -63,10 +56,18 @@ python main.py
 
 
 ## 📊 Results
-🔹 Dataset Preview
-🔹 Performance Distribution
-🔹 Salary vs Performance
-🔹 Model Accuracy
+
+### Dataset Preview
+![Dataset](images/dataset_preview)
+
+### Performance Distribution
+![Chart](images/performance_distribution.png)
+
+### Salary vs Performance
+![Chart](images/salary_vs_performance.png)
+
+### Model Accuracy
+![Accuracy](images/model_accuracy.png)
 
 🤖 Model Used
 Random Forest Classifier
@@ -81,6 +82,13 @@ Low
 Higher training hours improve performance
 Salary positively impacts results
 Experience contributes to growth
+
+## 🚀 Key Achievements
+
+- Built ML model for employee performance prediction
+- Achieved ~75% accuracy
+- Created synthetic HR dataset
+- Generated insights using data visualization
 
 ## 🚀 Future Improvements
 Add real HR dataset
