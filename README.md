@@ -1,5 +1,7 @@
 # 🚀 Employee Performance Predictor
 
+> 🎯 Machine Learning project to predict employee performance using HR analytics
+
 ---
 ## 📊 Overview
 A Machine Learning project that predicts employee performance using data analytics.
@@ -122,6 +124,14 @@ The model predicts employee performance as:
 - Build Streamlit dashboard
 - Deploy as web app
 - Add attrition prediction
+
+---
+## 📌 How It Works
+1. Generate employee dataset  
+2. Preprocess data  
+3. Train ML model  
+4. Predict performance  
+5. Visualize results
 
 ---
 
