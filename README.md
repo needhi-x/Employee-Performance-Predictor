@@ -73,7 +73,7 @@ python main.py
 ## 📊 Results
 
 ### Dataset Preview
-![Dataset](images/dataset_preview.png)
+![dataset](images/dataset_preview.png)
 
 ### Performance Distribution
 ![Chart](images/performance_distribution.png)
